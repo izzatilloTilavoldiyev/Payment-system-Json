@@ -1,0 +1,65 @@
+[
+  {
+    "type": "HUMO",
+    "cardNumber": "5555",
+    "balance": 1958.0,
+    "active": true,
+    "id": "5a851f97-9c9c-43cb-94cf-4dfcf4ec27d3"
+  },
+  {
+    "type": "UzCard",
+    "cardNumber": "1111",
+    "balance": 822.0,
+    "active": true,
+    "id": "4bcef321-b72f-4549-81e2-b8cf740c319e"
+  },
+  {
+    "type": "UzCard",
+    "cardNumber": "2222",
+    "balance": 1500.0,
+    "active": true,
+    "id": "04dc8fd3-92ee-4e6d-a18a-8f2cd4979d99"
+  },
+  {
+    "type": "HUMO",
+    "cardNumber": "3333",
+    "balance": 1689.0,
+    "active": true,
+    "id": "6d2fad4a-e033-4184-a103-3074c4fb827c"
+  },
+  {
+    "type": "HUMO",
+    "cardNumber": "4444",
+    "balance": 1705.0,
+    "active": true,
+    "id": "e816c9eb-ffe5-4d6c-9377-55a05b1bb01b"
+  },
+  {
+    "type": "UzCard",
+    "cardNumber": "6666",
+    "balance": 2120.0,
+    "active": true,
+    "id": "5e35723c-dbd6-4aea-bb99-b7ea350493a0"
+  },
+  {
+    "type": "UzCard",
+    "cardNumber": "7777",
+    "balance": 2410.0,
+    "active": true,
+    "id": "e44fba05-cc79-447b-bac1-3507ef2b9b9a"
+  },
+  {
+    "type": "HUMO",
+    "cardNumber": "8888",
+    "balance": 3141.0,
+    "active": true,
+    "id": "93ccd2c6-f00a-4f79-9d6a-d4197f9ea8b8"
+  },
+  {
+    "type": "HUMO",
+    "cardNumber": "9999",
+    "balance": 955.0,
+    "active": true,
+    "id": "7f6dc35b-c8d9-4017-972f-ad3d6ae29857"
+  }
+]

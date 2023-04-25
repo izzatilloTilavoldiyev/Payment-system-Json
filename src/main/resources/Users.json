@@ -1,0 +1,72 @@
+[
+  {
+    "name": "izzatillo",
+    "phoneNumber": "5555",
+    "password": "5555",
+    "status": "USER",
+    "id": "5a851f97-9c9c-43cb-94cf-4dfcf4ec27d3"
+  },
+  {
+    "name": "0000",
+    "phoneNumber": "0000",
+    "password": "0000",
+    "status": "ADMIN",
+    "id": "0f012f1b-28e6-48f6-8e50-7b8f16b19a74"
+  },
+  {
+    "name": "1111",
+    "phoneNumber": "1111",
+    "password": "1111",
+    "status": "USER",
+    "id": "4bcef321-b72f-4549-81e2-b8cf740c319e"
+  },
+  {
+    "name": "2222",
+    "phoneNumber": "2222",
+    "password": "2222",
+    "status": "USER",
+    "id": "04dc8fd3-92ee-4e6d-a18a-8f2cd4979d99"
+  },
+  {
+    "name": "3333",
+    "phoneNumber": "3333",
+    "password": "3333",
+    "status": "USER",
+    "id": "6d2fad4a-e033-4184-a103-3074c4fb827c"
+  },
+  {
+    "name": "4444",
+    "phoneNumber": "4444",
+    "password": "4444",
+    "status": "USER",
+    "id": "e816c9eb-ffe5-4d6c-9377-55a05b1bb01b"
+  },
+  {
+    "name": "6666",
+    "phoneNumber": "6666",
+    "password": "6666",
+    "status": "USER",
+    "id": "5e35723c-dbd6-4aea-bb99-b7ea350493a0"
+  },
+  {
+    "name": "7777",
+    "phoneNumber": "7777",
+    "password": "7777",
+    "status": "USER",
+    "id": "e44fba05-cc79-447b-bac1-3507ef2b9b9a"
+  },
+  {
+    "name": "8888",
+    "phoneNumber": "8888",
+    "password": "8888",
+    "status": "USER",
+    "id": "93ccd2c6-f00a-4f79-9d6a-d4197f9ea8b8"
+  },
+  {
+    "name": "9999",
+    "phoneNumber": "9999",
+    "password": "9999",
+    "status": "USER",
+    "id": "7f6dc35b-c8d9-4017-972f-ad3d6ae29857"
+  }
+]

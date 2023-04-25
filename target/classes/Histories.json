@@ -1,0 +1,92 @@
+[
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "e44fba05-cc79-447b-bac1-3507ef2b9b9a",
+    "sender": "1111",
+    "receiver": "7777",
+    "commission": 0.0,
+    "amount": 10.0,
+    "transactionDate": "22-04-2023 11-14",
+    "id": "4bcef321-b72f-4549-81e2-b8cf740c319e"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "04dc8fd3-92ee-4e6d-a18a-8f2cd4979d99",
+    "sender": "9999",
+    "receiver": "2222",
+    "commission": 0.0,
+    "amount": 100.0,
+    "transactionDate": "22-04-2023 11-15",
+    "id": "7f6dc35b-c8d9-4017-972f-ad3d6ae29857"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "5e35723c-dbd6-4aea-bb99-b7ea350493a0",
+    "sender": "7777",
+    "receiver": "6666",
+    "commission": 0.0,
+    "amount": 120.0,
+    "transactionDate": "22-04-2023 11-15",
+    "id": "e44fba05-cc79-447b-bac1-3507ef2b9b9a"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "93ccd2c6-f00a-4f79-9d6a-d4197f9ea8b8",
+    "sender": "5555",
+    "receiver": "8888",
+    "commission": 0.0,
+    "amount": 100.0,
+    "transactionDate": "22-04-2023 12-14",
+    "id": "5a851f97-9c9c-43cb-94cf-4dfcf4ec27d3"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "4bcef321-b72f-4549-81e2-b8cf740c319e",
+    "sender": "5555",
+    "receiver": "1111",
+    "commission": 0.0,
+    "amount": 12.0,
+    "transactionDate": "22-04-2023 12-15",
+    "id": "5a851f97-9c9c-43cb-94cf-4dfcf4ec27d3"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "93ccd2c6-f00a-4f79-9d6a-d4197f9ea8b8",
+    "sender": "3333",
+    "receiver": "8888",
+    "commission": 0.0,
+    "amount": 41.0,
+    "transactionDate": "22-04-2023 12-15",
+    "id": "6d2fad4a-e033-4184-a103-3074c4fb827c"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "e816c9eb-ffe5-4d6c-9377-55a05b1bb01b",
+    "sender": "3333",
+    "receiver": "4444",
+    "commission": 0.0,
+    "amount": 15.0,
+    "transactionDate": "22-04-2023 12-15",
+    "id": "6d2fad4a-e033-4184-a103-3074c4fb827c"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "7f6dc35b-c8d9-4017-972f-ad3d6ae29857",
+    "sender": "3333",
+    "receiver": "9999",
+    "commission": 0.0,
+    "amount": 55.0,
+    "transactionDate": "22-04-2023 12-15",
+    "id": "6d2fad4a-e033-4184-a103-3074c4fb827c"
+  },
+  {
+    "historyStatus": "Outcome",
+    "ReceiverId": "4bcef321-b72f-4549-81e2-b8cf740c319e",
+    "sender": "4444",
+    "receiver": "1111",
+    "commission": 0.0,
+    "amount": 10.0,
+    "transactionDate": "22-04-2023 12-16",
+    "id": "e816c9eb-ffe5-4d6c-9377-55a05b1bb01b"
+  }
+]
