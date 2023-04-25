@@ -50,7 +50,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public ArrayList<User> users() {
-        return userRepository.getAll();
+        return userRepository.getUsers();
     }
 
     @Override

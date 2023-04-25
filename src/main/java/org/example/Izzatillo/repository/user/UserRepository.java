@@ -9,4 +9,5 @@ import java.util.ArrayList;
 
 public interface UserRepository extends BaseRepository<User> {
     ArrayList<TopUsers> topUsers(ArrayList<History> histories);
+    ArrayList<User> getUsers();
 }

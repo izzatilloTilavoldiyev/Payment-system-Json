@@ -4,6 +4,7 @@ import com.google.gson.reflect.TypeToken;
 import org.example.Izzatillo.domain.model.history.History;
 import org.example.Izzatillo.domain.model.user.TopUsers;
 import org.example.Izzatillo.domain.model.user.User;
+import org.example.Izzatillo.domain.model.user.UserStatus;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -80,6 +81,17 @@ public class UserRepositoryImpl implements UserRepository{
             count = 0;
         }
         return topUsers;
+    }
+
+    @Override
+    public ArrayList<User> getUsers() {
+        ArrayList<User> users = new ArrayList<>();
+        for (User user : getAll()) {
+            if (!Objects.equals(user.getStatus(), UserStatus.ADMIN)) {
+                users.add(user);
+            }
+        }
+        return users;
     }
 
     @Override

@@ -13,4 +13,5 @@ public interface UserService extends BaseService<SignUpDTO> {
     Response signIn(String phoneNumber, String password);
     ArrayList<User> users();
     ArrayList<TopUsers> topUsers(ArrayList<History> histories);
+
 }
