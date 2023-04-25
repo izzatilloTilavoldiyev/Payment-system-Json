@@ -11,5 +11,5 @@ public interface BaseRepository<T> {
     void remove(UUID id);
     void remove(T t);
 
-    void update(ArrayList<T> ts, String path);
+    void update(ArrayList<T> ts);
 }

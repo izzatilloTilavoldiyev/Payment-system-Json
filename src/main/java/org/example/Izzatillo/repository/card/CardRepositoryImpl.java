@@ -31,7 +31,7 @@ public class CardRepositoryImpl implements CardRepository{
     public void save(Card card) {
         ArrayList<Card> cards = getAll();
         cards.add(card);
-        update(cards, path);
+        update(cards);
     }
 
     @Override
@@ -66,7 +66,7 @@ public class CardRepositoryImpl implements CardRepository{
         for (Card card1 : cards) {
             if (Objects.equals(card1.getId(), card.getId())) {
                 card1.setActive(false);
-                update(cards, path);
+                update(cards);
                 return new Response<>("Success", 200);
             }
         }
@@ -92,7 +92,7 @@ public class CardRepositoryImpl implements CardRepository{
                 card1.setBalance(card.getBalance() + amount);
             }
         }
-        update(cards, path);
+        update(cards);
         return new Response<>("Success", 200);
     }
 
@@ -108,7 +108,7 @@ public class CardRepositoryImpl implements CardRepository{
                     if (Objects.equals(card1.getId(), seCard.getId()))
                         card1.setBalance(seCard.getBalance() - amount);
                 }
-                update(cards, path);
+                update(cards);
                 return new Response<>("Successfully transferred", card, 200);
             }
         }
@@ -116,7 +116,7 @@ public class CardRepositoryImpl implements CardRepository{
     }
 
     @Override
-    public void update(ArrayList<Card> cards, String path) {
+    public void update(ArrayList<Card> cards) {
         try {
             PrintWriter writer = new PrintWriter(path);
             gson.toJson(cards, writer);

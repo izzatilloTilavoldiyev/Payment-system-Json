@@ -1,0 +1,26 @@
+[
+  {
+    "activate": true,
+    "name": "Gas",
+    "type": "Utilities",
+    "commission": 0.0
+  },
+  {
+    "activate": true,
+    "name": "Electricity",
+    "type": "Utilities",
+    "commission": 0.8
+  },
+  {
+    "activate": true,
+    "name": "Pdp Ecosystem",
+    "type": "Education",
+    "commission": 0.0
+  },
+  {
+    "activate": true,
+    "name": "Cambridge",
+    "type": "Education",
+    "commission": 0.0
+  }
+]

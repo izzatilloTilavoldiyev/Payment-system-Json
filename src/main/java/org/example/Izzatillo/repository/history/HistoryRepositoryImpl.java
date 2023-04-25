@@ -33,7 +33,7 @@ public class HistoryRepositoryImpl implements HistoryRepository {
     public void save(History history) {
         ArrayList<History> histories = getAll();
         histories.add(history);
-        update(histories, path);
+        update(histories);
     }
 
     @Override
@@ -45,8 +45,7 @@ public class HistoryRepositoryImpl implements HistoryRepository {
     public ArrayList<History> readFromFile(String path) {
         try {
             FileReader reader = new FileReader(path);
-            Type type = new TypeToken<ArrayList<History>>() {
-            }.getType();
+            Type type = new TypeToken<ArrayList<History>>() {}.getType();
             return gson.fromJson(reader, type);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -152,7 +151,7 @@ public class HistoryRepositoryImpl implements HistoryRepository {
     }
 
     @Override
-    public void update(ArrayList<History> histories, String path) {
+    public void update(ArrayList<History> histories) {
         try {
             PrintWriter writer = new PrintWriter(path);
             gson.toJson(histories, writer);

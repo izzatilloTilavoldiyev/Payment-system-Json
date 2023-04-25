@@ -32,7 +32,7 @@ public class UserRepositoryImpl implements UserRepository{
     public void save(User user) {
         ArrayList<User> users = getAll();
         users.add(user);
-        update(users, path);
+        update(users);
     }
 
     @Override
@@ -95,7 +95,7 @@ public class UserRepositoryImpl implements UserRepository{
     }
 
     @Override
-    public void update(ArrayList<User> users, String path) {
+    public void update(ArrayList<User> users) {
         try {
             PrintWriter writer = new PrintWriter(path);
             gson.toJson(users, writer);

@@ -11,18 +11,24 @@ import static org.example.Izzatillo.util.BeanUtils.*;
 public class AdminController {
     public void adminMenu(User user) {
         while (true) {
-            System.out.println("1. All transactions\n2. User's transaction\n3. Between period\n4. Top users\n0. Exit");
+            System.out.println("1. Services\n2. All transactions list\n3. User's transaction\n4. Between period\n5. Top users\n0. Exit");
             int action = scanNum.nextInt();
             switch (action) {
-                case 1 -> allTransactions();
-                case 2 -> userTransaction();
-                case 3 -> betweenPeriod();
-                case 4 -> topUsers();
+                case 1 -> service();
+                case 2 -> allTransactions();
+                case 3 -> userTransaction();
+                case 4 -> betweenPeriod();
+                case 5 -> topUsers();
                 case 0 -> {
                     System.out.println("Thank you!"); return;
                 }
             }
         }
+    }
+
+    private void service() {
+        ServiceStage serviceStage = new ServiceStage();
+        serviceStage.service();
     }
 
     private void allTransactions() {
