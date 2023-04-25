@@ -23,7 +23,8 @@ public class History extends BaseModel {
 
     @Override
     public String toString() {
-        return "Sender -> " + sender + '\n' +
+        return "Status -> " + historyStatus + '\n' +
+               "Sender -> " + sender + '\n' +
                "Receiver -> " + receiver + '\n' +
                "Commission -> " + commission + '\n' +
                "Amount -> " + amount + '$' + '\n' +
